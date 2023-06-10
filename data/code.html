@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dark Responsive Page with Tabs</title>
+
+    <!-- 新 Bootstrap5 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+
+    <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom styles -->
+    <style>
+        body {
+            background-color: #222;
+            color: #222;
+        }
+
+        h1 {
+            color: #eee;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .table-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .navbar {
+            background-color: #333;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .navbar-brand {
+            color: #eee;
+        }
+
+        .tab-content {
+            margin-top: 20px;
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+        .table-title {
+            color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>《崩坏：星穹铁道》兑换码</h1>
+</header>
+<div style="height: 30px;"></div>
+<main class="container">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#tab1">国服（官服）</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab2">国际服</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="tab1">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <h2 class="table-title">未到期</h2>
+                    <table class="table table-dark table-striped">
+                        <thead>
+                        <tr>
+                            <th>兑换码</th>
+                            <th>奖励</th>
+                            <th>到期时间</th>
+                        </tr>
+                        </thead>
+                        <tbody id="main-true">
+                        </tbody>
+                    </table>
+                    <h2 class="table-title">已到期</h2>
+                    <table class="table table-dark table-striped">
+                        <thead>
+                        <tr>
+                            <th>兑换码</th>
+                            <th>奖励</th>
+                            <th>到期时间</th>
+                        </tr>
+                        </thead>
+                        <tbody id="main-false">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab2">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <h2 class="table-title">未到期</h2>
+                    <table class="table table-dark table-striped">
+                        <thead>
+                        <tr>
+                            <th>兑换码</th>
+                            <th>奖励</th>
+                            <th>到期时间</th>
+                        </tr>
+                        </thead>
+                        <tbody id="over-true">
+                        </tbody>
+                    </table>
+                    <h2 class="table-title">已到期</h2>
+                    <table class="table table-dark table-striped">
+                        <thead>
+                        <tr>
+                            <th>兑换码</th>
+                            <th>奖励</th>
+                            <th>到期时间</th>
+                        </tr>
+                        </thead>
+                        <tbody id="over-false">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div style="height: 100px;"></div>
+
+<footer>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PaiGramTeam</a>
+        </div>
+    </nav>
+</footer>
+
+<script>
+    function addRow(tableId, data) {
+        let now = new Date();
+        let expire_time = new Date(data.expire);
+        if (now > expire_time) {
+            tableId += "-false";
+        } else {
+            tableId += "-true";
+        }
+        let table = document.getElementById(tableId);
+        let new_tr = document.createElement("tr");
+        let code = document.createElement("td");
+        code.innerHTML = data.code;
+        let reward = document.createElement("td");
+        data.reward.forEach(function (item) {
+            let p = document.createElement("p");
+            p.innerHTML = item.name + " x" + item.cnt;
+            reward.appendChild(p);
+        });
+        let expire = document.createElement("td");
+        expire.innerHTML = expire_time.toLocaleString();
+        new_tr.appendChild(code);
+        new_tr.appendChild(reward);
+        new_tr.appendChild(expire);
+        table.appendChild(new_tr);
+    }
+
+    fetch('code.json')
+        .then(response => response.json())
+        .then(data => {
+            for (let key in data) {
+                for (let value in data[key]) {
+                    addRow(key, data[key][value]);
+                }
+            }
+        })
+        .catch(error => console.error(error));
+</script>
+
+</body>
+
+</html>

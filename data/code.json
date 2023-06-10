@@ -1,0 +1,214 @@
+{
+    "main": [
+        {
+            "code": "MIYOUSHE2023",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 60
+                }
+            ],
+            "expire": 1686402166000
+        }
+    ],
+    "over": [
+        {
+            "code": "BSN2EWMHA4RP",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "HSRVER10JYTGHC",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "STARRAILGIFT",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "SURPRISE1024",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "冒险记录",
+                    "cnt": 3
+                },
+                {
+                    "name": "疾速粉尘",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1686070799999
+        },
+        {
+            "code": "ZTPTNMTX8LUF",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 50000
+                }
+            ],
+            "expire": 1685206799999
+        },
+        {
+            "code": "8A6T6LBFQ4D3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 5
+                }
+            ],
+            "expire": 1685206799999
+        },
+        {
+            "code": "DB7A64BW8LC7",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "提纯以太",
+                    "cnt": 4
+                }
+            ],
+            "expire": 1685206799999
+        },
+        {
+            "code": "CS75WMP976AK",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                }
+            ],
+            "expire": 1685206799999
+        },
+        {
+            "code": "HSRVER10XEDLFE",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 2
+                }
+            ],
+            "expire": 1683565199999
+        },
+        {
+            "code": "2T7BP4JVEBT7",
+            "reward": [
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                },
+                {
+                    "name": "冒险记录",
+                    "cnt": 3
+                },
+                {
+                    "name": "凝缩以太",
+                    "cnt": 2
+                },
+                {
+                    "name": "大宇宙炒饭",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1683392399999
+        },
+        {
+            "code": "HSRGRANDOPEN1",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1682787599999
+        },
+        {
+            "code": "HSRGRANDOPEN2",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 5
+                }
+            ],
+            "expire": 1682787599999
+        },
+        {
+            "code": "HSRGRANDOPEN3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "提纯以太",
+                    "cnt": 4
+                }
+            ],
+            "expire": 1682787599999
+        }
+    ]
+}

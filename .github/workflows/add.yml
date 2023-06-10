@@ -12,7 +12,7 @@ on:
             description: 'gift code'
             required: true
         expire:
-            description: 'expire date, format: 2023-6-10'
+            description: 'expire date, format: 2023-6-10 or 2023-06-10:12:00:00'
             required: true
         rewards:
             description: 'rewards, format: 星琼:60 信用点:1000'

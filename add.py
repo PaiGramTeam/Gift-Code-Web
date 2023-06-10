@@ -10,8 +10,12 @@ custom_path = data_path / "custom.json"
 
 
 def add(code: str, expire_str: str, rewards_str: List[str]) -> Code:
-    expire = datetime.strptime(expire_str, "%Y-%m-%d")
-    expire = expire.replace(hour=23, minute=59, second=59, microsecond=999999)
+    if ":" in expire_str:
+        expire = datetime.strptime(expire_str, "%Y-%m-%d:%H:%M:%S")
+        expire = expire.replace(microsecond=999999)
+    else:
+        expire = datetime.strptime(expire_str, "%Y-%m-%d")
+        expire = expire.replace(hour=23, minute=59, second=59, microsecond=999999)
     rewards = []
     for reward_str in rewards_str:
         reward_list = reward_str.split(":")

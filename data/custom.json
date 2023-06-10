@@ -1,4 +1,15 @@
 {
-    "main": [],
+    "main": [
+        {
+            "code": "MIYOUSHE2023",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 60
+                }
+            ],
+            "expire": 1689724799999
+        }
+    ],
     "over": []
 }

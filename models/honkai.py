@@ -1,3 +1,4 @@
+import re
 from datetime import datetime
 from typing import List
 
@@ -24,14 +25,17 @@ def parse_reward(reward: List[str]) -> Reward:
     try:
         name = reward_map.get(reward[0])
         if not name:
-            print("Unknown reward: ", reward[0])
+            # 判断是否为中文
+            if not re.search("[\u4e00-\u9fa5]", reward[0]):
+                print("Unknown reward: ", reward[0])
             name = reward[0]
         return Reward(
             name=name,
             cnt=int(reward[1]),
         )
-    except ValueError:
+    except Exception as e:
         print("Bad reward data: ", reward)
+        raise e
 
 
 def parse_code(tr: Tag) -> Code:
@@ -57,14 +61,21 @@ def parse_code(tr: Tag) -> Code:
     rewards = []
     for reward in tds[1].find_all("div", {"class": "flex"}):
         reward_div = reward.text.strip().split("\xa0x ")
+        if len(reward_div) < 2:
+            print("Bad td data: ", tds[1])
+            continue
         parsed_reward = parse_reward(reward_div)
         if parsed_reward:
             rewards.append(parsed_reward)
-    for reward in tds[1].find_all("a"):
-        reward_a = reward.text.strip().split(" x ")
-        parsed_reward = parse_reward(reward_a)
-        if parsed_reward:
-            rewards.append(parsed_reward)
+    if not rewards:
+        for reward in tds[1].find_all("a"):
+            reward_a = reward.text.strip().split(" x ")
+            if len(reward_a) < 2:
+                print("Bad a data: ", tds[1])
+                continue
+            parsed_reward = parse_reward(reward_a)
+            if parsed_reward:
+                rewards.append(parsed_reward)
     return Code(code=code, reward=rewards, expire=expire)
 
 

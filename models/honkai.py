@@ -1,4 +1,5 @@
 import re
+from pytz import timezone
 from datetime import datetime
 from typing import List
 
@@ -57,6 +58,7 @@ def parse_code(tr: Tag) -> Code:
         now = datetime.now()
         expire = datetime.strptime(f"{day} {month}", "%d %b")
         expire = expire.replace(year=now.year, hour=23, minute=59, second=59, microsecond=999999)
+    expire = timezone("Asia/Shanghai").localize(expire)
     expire = int(expire.timestamp() * 1000)
     rewards = []
     for reward in tds[1].find_all("div", {"class": "flex"}):

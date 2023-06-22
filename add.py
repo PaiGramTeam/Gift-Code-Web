@@ -1,4 +1,5 @@
 from pathlib import Path
+from pytz import timezone
 from sys import argv
 from datetime import datetime
 from typing import List
@@ -16,6 +17,7 @@ def add(code: str, expire_str: str, rewards_str: List[str]) -> Code:
     else:
         expire = datetime.strptime(expire_str, "%Y-%m-%d")
         expire = expire.replace(hour=23, minute=59, second=59, microsecond=999999)
+    expire = timezone("Asia/Shanghai").localize(expire)
     rewards = []
     for reward_str in rewards_str:
         reward_list = reward_str.split(":")

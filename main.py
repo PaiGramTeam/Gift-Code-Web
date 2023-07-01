@@ -1,3 +1,4 @@
+import json
 from typing import List
 
 from models.code import CodeList, Code
@@ -23,10 +24,10 @@ def merge_code(over: List[Code], custom: CodeList) -> CodeList:
 def main():
     over = get_code()
     with open(custom_path, "r", encoding="utf-8") as f:
-        custom = CodeList.parse_raw(f.read())
+        custom = CodeList.model_validate_json(f.read())
     custom = merge_code(over, custom)
     with open(code_path, "w", encoding="utf-8") as f:
-        f.write(custom.json(indent=4, ensure_ascii=False))
+        f.write(json.dumps(custom.model_dump(), indent=4, ensure_ascii=False))
 
 
 if __name__ == '__main__':

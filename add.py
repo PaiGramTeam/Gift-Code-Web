@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 from pytz import timezone
 from sys import argv
@@ -41,7 +42,7 @@ if __name__ == '__main__':
             raise IndexError
         code = add(argv[2], argv[3], argv[4:])
         with open(custom_path, "r", encoding="utf-8") as f:
-            custom: CodeList = CodeList.parse_raw(f.read())
+            custom: CodeList = CodeList.model_validate_json(f.read())
         if add_type == "main":
             main_codes = [i.code for i in custom.main]
             if code.code in main_codes:
@@ -55,7 +56,7 @@ if __name__ == '__main__':
         custom.main.sort(key=lambda x: x.expire, reverse=True)
         custom.over.sort(key=lambda x: x.expire, reverse=True)
         with open(custom_path, "w", encoding="utf-8") as f:
-            f.write(custom.json(indent=4, ensure_ascii=False))
+            f.write(json.dumps(custom.model_dump(), indent=4, ensure_ascii=False))
     except IndexError:
         print("Usage: python add.py [main/over] [code] [expire] [rewards...]")
         print("Example: python add.py main code 2023-11-1 星琼:1 信用点:1000")

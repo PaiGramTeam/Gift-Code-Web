@@ -20,6 +20,7 @@ reward_map = {
     "Dust of Alacrity": "疾速粉尘",
     "Condensed Aether": "凝缩以太",
     "Cosmic Fried Rice": "大宇宙炒饭",
+    "Travel Encounters": "旅情见闻",
 }
 
 
@@ -44,27 +45,20 @@ def parse_code(tr: Tag) -> Code:
     tds = tr.find_all("td")
     code = tds[0].text.strip()
     try:
-        expire = tds[2].text.strip()
-    except IndexError:
-        expire = datetime(1970, 1, 1, 1, 0, 0, 0)
+        _, expire = str(tds[2]).split("<br/>")
+    except (IndexError, TypeError):
+        _, expire = datetime(1970, 1, 1, 1, 0, 0, 0), datetime(2099, 12, 31, 23, 59, 59, 999999)
     if isinstance(expire, str):
-        if expire.endswith("?"):
+        try:
+            expire = expire.split(": ")[1].replace("</td>", "")
+            if expire == "Unknown":
+                expire = datetime(2099, 12, 31, 23, 59, 59, 999999)
+            else:
+                expire = datetime.strptime(expire, "%B %d, %Y")
+        except IndexError:
             expire = datetime(2099, 12, 31, 23, 59, 59, 999999)
-        else:
-            expires = expire.split(" – ")
-            day = expires[1].split(" ")[-1]
-            month = expires[0].split(" ")[0]
-            try:
-                if " " not in expires[1]:
-                    raise ValueError
-                month = expires[1].split(" ")[0]
-            except ValueError:
-                pass
-            now = datetime.now()
-            expire = datetime.strptime(f"{day} {month}", "%d %b")
-            expire = expire.replace(year=now.year, hour=23, minute=59, second=59, microsecond=999999)
-    expire = timezone("Asia/Shanghai").localize(expire)
-    expire = int(expire.timestamp() * 1000)
+        expire = timezone("Asia/Shanghai").localize(expire)
+        expire = int(expire.timestamp() * 1000)
     rewards = []
     for reward in str(tds[1]).split("<br/>"):
         reward = BeautifulSoup(reward, "lxml")

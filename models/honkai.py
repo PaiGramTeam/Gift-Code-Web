@@ -45,7 +45,8 @@ def parse_code(tr: Tag) -> Code:
     tds = tr.find_all("td")
     code = tds[0].text.strip()
     try:
-        _, expire = str(tds[2]).split("<br/>")
+        data = str(tds[2]).split("<br/>")
+        expire = data[1]
     except (IndexError, TypeError):
         _, expire = datetime(1970, 1, 1, 1, 0, 0, 0), datetime(2099, 12, 31, 23, 59, 59, 999999)
     if isinstance(expire, str):

@@ -21,6 +21,9 @@ reward_map = {
     "Condensed Aether": "凝缩以太",
     "Cosmic Fried Rice": "大宇宙炒饭",
     "Travel Encounters": "旅情见闻",
+    "Energy Drink": "能量饮料",
+    "Startaro Bubble": "星芋啵啵",
+    "Lost Gold Fragments": "遗失碎金",
 }
 
 
@@ -52,18 +55,26 @@ def parse_code(tr: Tag) -> Code:
     if isinstance(expire, str):
         try:
             expire = expire.split(": ")[1].replace("</td>", "")
-            if expire == "Unknown":
+            if "Unknown" in expire:
                 expire = datetime(2099, 12, 31, 23, 59, 59, 999999)
-            else:
+            elif "," in expire:
                 expire = datetime.strptime(expire, "%B %d, %Y")
+            else:
+                expire = datetime.strptime(expire, "%B %d")
+                expire = expire.replace(year=datetime.now().year)
         except IndexError:
             expire = datetime(2099, 12, 31, 23, 59, 59, 999999)
         expire = timezone("Asia/Shanghai").localize(expire)
         expire = int(expire.timestamp() * 1000)
     rewards = []
     for reward in str(tds[1]).split("<br/>"):
-        reward = BeautifulSoup(reward, "lxml")
-        reward_div = " ".join(reward.text.strip().split()).split(" x ")
+        reward_soup = BeautifulSoup(reward, "lxml")
+        reward_text = " ".join(reward_soup.text.strip().split())
+        reward_div = []
+        if " x " in reward_text:
+            reward_div = reward_text.split(" x ")
+        elif " x" in reward_text:
+            reward_div = reward_text.split(" x")
         if len(reward_div) < 2:
             print("Bad td data: ", tds[1])
             continue

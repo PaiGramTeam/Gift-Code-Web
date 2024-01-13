@@ -23,6 +23,8 @@ def merge_code(over: List[Code], custom: CodeList) -> CodeList:
 
 def main():
     over = get_code()
+    if not over:
+        raise ValueError("Get code failed")
     with open(custom_path, "r", encoding="utf-8") as f:
         custom = CodeList.model_validate_json(f.read())
     custom = merge_code(over, custom)

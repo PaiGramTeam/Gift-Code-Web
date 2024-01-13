@@ -40,8 +40,7 @@ jobs:
       with:
         author_name: github-actions[bot]
         author_email: github-actions[bot]@users.noreply.github.com
-        push: 'origin remote --force'
-        new_branch: 'remote'
+        push: 'origin main'
         message: ':sparkles: Update Codes'
         add: |
           'data'

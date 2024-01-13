@@ -24,6 +24,9 @@ reward_map = {
     "Energy Drink": "能量饮料",
     "Startaro Bubble": "星芋啵啵",
     "Lost Gold Fragments": "遗失碎金",
+    "Hypnotic Hammer": "安眠锤",
+    "Camo Paint": "迷彩油漆",
+    "Dry Emergency Light": "干制应急灯",
 }
 
 
@@ -69,7 +72,7 @@ def parse_code(tr: Tag) -> Code:
     rewards = []
     for reward in str(tds[1]).split("<br/>"):
         reward_soup = BeautifulSoup(reward, "lxml")
-        reward_text = " ".join(reward_soup.text.strip().split())
+        reward_text = " ".join(reward_soup.text.strip().split()).replace("×", "x")
         reward_div = []
         if " x " in reward_text:
             reward_div = reward_text.split(" x ")

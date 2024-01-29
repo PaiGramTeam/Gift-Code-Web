@@ -377,6 +377,48 @@
             "expire": 1731600000000
         },
         {
+            "code": "LTQA2Q5249KF",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "提纯以太",
+                    "cnt": 4
+                }
+            ],
+            "expire": 1706284800000
+        },
+        {
+            "code": "EA8BKR4JL93T",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 5
+                }
+            ],
+            "expire": 1706284800000
+        },
+        {
+            "code": "TT9S28LK4QHP",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 50000
+                }
+            ],
+            "expire": 1706284800000
+        },
+        {
             "code": "HoYoFEST CodeShare event to unlock unique code",
             "reward": [
                 {

@@ -121,6 +121,34 @@
     ],
     "over": [
         {
+            "code": "0206PENACONY",
+            "reward": [
+                {
+                    "name": "Steamed Puffergoat Milk",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "DIVEINTODREAMS",
+            "reward": [
+                {
+                    "name": "Bottled Soda",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "2AQA294J5R37",
             "reward": [
                 {

@@ -121,10 +121,95 @@
     ],
     "over": [
         {
+            "code": "ZA9674JSAUPF",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 50000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "3S9N65KTBD63",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 5
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "6T96N52TADN7",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "提纯以太",
+                    "cnt": 4
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "0206STARRAIL",
+            "reward": [],
+            "expire": 4102415999999
+        },
+        {
+            "code": "VEGASHSR",
+            "reward": [],
+            "expire": 4102415999999
+        },
+        {
+            "code": "SWEETDREAMS",
+            "reward": [],
+            "expire": 4102415999999
+        },
+        {
+            "code": "DREAMTOGETHER",
+            "reward": [
+                {
+                    "name": "烈焰浓茶",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "0206GRANDOPEN",
+            "reward": [
+                {
+                    "name": "能量饮料",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "0206PENACONY",
             "reward": [
                 {
-                    "name": "Steamed Puffergoat Milk",
+                    "name": "热浮羊奶",
                     "cnt": 2
                 },
                 {
@@ -138,7 +223,7 @@
             "code": "DIVEINTODREAMS",
             "reward": [
                 {
-                    "name": "Bottled Soda",
+                    "name": "罐装快乐水",
                     "cnt": 2
                 },
                 {
@@ -194,114 +279,6 @@
                 {
                     "name": "信用点",
                     "cnt": 20000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "US9SND24U8FB",
-            "reward": [
-                {
-                    "name": "干制应急灯",
-                    "cnt": 3
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "ST9T6DKLVRGX",
-            "reward": [
-                {
-                    "name": "信用点",
-                    "cnt": 10000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "4BQSPDKLVQFF",
-            "reward": [
-                {
-                    "name": "迷彩油漆",
-                    "cnt": 3
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "YTRB6VKMVRZB",
-            "reward": [
-                {
-                    "name": "信用点",
-                    "cnt": 10000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "KB9A7VJ5VQW7",
-            "reward": [
-                {
-                    "name": "信用点",
-                    "cnt": 10000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "5S9BND25CRBK",
-            "reward": [
-                {
-                    "name": "星琼",
-                    "cnt": 50
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 10000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "SOULKGQM2X",
-            "reward": [
-                {
-                    "name": "遗失碎金",
-                    "cnt": 3
-                },
-                {
-                    "name": "能量饮料",
-                    "cnt": 2
-                },
-                {
-                    "name": "星芋啵啵",
-                    "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 10000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "ELFNPWQ7ZB",
-            "reward": [
-                {
-                    "name": "遗失碎金",
-                    "cnt": 3
-                },
-                {
-                    "name": "能量饮料",
-                    "cnt": 2
-                },
-                {
-                    "name": "星芋啵啵",
-                    "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 10000
                 }
             ],
             "expire": 4102415999999
@@ -445,6 +422,70 @@
                 }
             ],
             "expire": 1706284800000
+        },
+        {
+            "code": "US9SND24U8FB",
+            "reward": [
+                {
+                    "name": "干制应急灯",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1703952000000
+        },
+        {
+            "code": "ST9T6DKLVRGX",
+            "reward": [
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1703952000000
+        },
+        {
+            "code": "4BQSPDKLVQFF",
+            "reward": [
+                {
+                    "name": "迷彩油漆",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1703952000000
+        },
+        {
+            "code": "YTRB6VKMVRZB",
+            "reward": [
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1703952000000
+        },
+        {
+            "code": "KB9A7VJ5VQW7",
+            "reward": [
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1703952000000
+        },
+        {
+            "code": "5S9BND25CRBK",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1703952000000
         },
         {
             "code": "HoYoFEST CodeShare event to unlock unique code",
@@ -858,6 +899,50 @@
                 }
             ],
             "expire": 1682784000000
+        },
+        {
+            "code": "SOULKGQM2X",
+            "reward": [
+                {
+                    "name": "遗失碎金",
+                    "cnt": 3
+                },
+                {
+                    "name": "能量饮料",
+                    "cnt": 2
+                },
+                {
+                    "name": "星芋啵啵",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": -25200000
+        },
+        {
+            "code": "ELFNPWQ7ZB",
+            "reward": [
+                {
+                    "name": "遗失碎金",
+                    "cnt": 3
+                },
+                {
+                    "name": "能量饮料",
+                    "cnt": 2
+                },
+                {
+                    "name": "星芋啵啵",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": -25200000
         }
     ]
 }

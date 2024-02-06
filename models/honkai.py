@@ -27,6 +27,9 @@ reward_map = {
     "Hypnotic Hammer": "安眠锤",
     "Camo Paint": "迷彩油漆",
     "Dry Emergency Light": "干制应急灯",
+    "Flaming Potent Tea": "烈焰浓茶",
+    "Steamed Puffergoat Milk": "热浮羊奶",
+    "Bottled Soda": "罐装快乐水",
 }
 
 
@@ -60,6 +63,8 @@ def parse_code(tr: Tag) -> Code:
             expire = expire.split(": ")[1].replace("</td>", "")
             if "Unknown" in expire:
                 expire = datetime(2099, 12, 31, 23, 59, 59, 999999)
+            elif "Expired" in expire:
+                expire = datetime(1970, 1, 1, 1, 0, 0, 0)
             elif "," in expire:
                 expire = datetime.strptime(expire, "%B %d, %Y")
             else:
@@ -104,6 +109,8 @@ def get_code():
     for table in tables:
         trs = table.find_all("tr")[1:]
         for tr in trs:
+            if not tr.text:
+                continue
             codes.append(parse_code(tr))
     codes.sort(key=lambda x: x.expire, reverse=True)
     return codes

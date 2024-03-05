@@ -233,6 +233,20 @@
             "expire": 4102415999999
         },
         {
+            "code": "STARRAILGIFT",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "2AQA294J5R37",
             "reward": [
                 {
@@ -278,20 +292,6 @@
                 {
                     "name": "信用点",
                     "cnt": 20000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "STARRAILGIFT",
-            "reward": [
-                {
-                    "name": "星琼",
-                    "cnt": 50
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 10000
                 }
             ],
             "expire": 4102415999999

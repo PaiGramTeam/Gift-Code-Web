@@ -121,7 +121,35 @@
     ],
     "over": [
         {
-            "code": "SB87P52BTVQ3",
+            "code": "HSR1YEAR",
+            "reward": [
+                {
+                    "name": "All or Nothing",
+                    "cnt": 1
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "0327Carnival",
+            "reward": [
+                {
+                    "name": "“Sour Dreams” Soft Candy",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "ST3SHPNLNTN3",
             "reward": [
                 {
                     "name": "星琼",
@@ -135,99 +163,15 @@
             "expire": 4102415999999
         },
         {
-            "code": "0206STARRAIL",
+            "code": "MOREPEACH",
             "reward": [
                 {
-                    "name": "星芋啵啵",
-                    "cnt": 2
+                    "name": "漫游指南",
+                    "cnt": 3
                 },
                 {
-                    "name": "信用点",
-                    "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "VEGASHSR",
-            "reward": [
-                {
-                    "name": "Sweet Dreams Soda",
+                    "name": "“Sour Dreams” Soft Candy",
                     "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "SWEETDREAMS",
-            "reward": [
-                {
-                    "name": "Sweet Dreams Soda",
-                    "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "DREAMTOGETHER",
-            "reward": [
-                {
-                    "name": "烈焰浓茶",
-                    "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "0206GRANDOPEN",
-            "reward": [
-                {
-                    "name": "能量饮料",
-                    "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "0206PENACONY",
-            "reward": [
-                {
-                    "name": "热浮羊奶",
-                    "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "DIVEINTODREAMS",
-            "reward": [
-                {
-                    "name": "罐装快乐水",
-                    "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 5000
                 }
             ],
             "expire": 4102415999999
@@ -379,6 +323,179 @@
                 }
             ],
             "expire": 1731600000000
+        },
+        {
+            "code": "SB87P52BTVQ3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1711468800000
+        },
+        {
+            "code": "0206STARRAIL",
+            "reward": [],
+            "expire": 1711468800000
+        },
+        {
+            "code": "VEGASHSR",
+            "reward": [
+                {
+                    "name": "Sweet Dreams Soda",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1711468800000
+        },
+        {
+            "code": "SWEETDREAMS",
+            "reward": [
+                {
+                    "name": "Sweet Dreams Soda",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1711468800000
+        },
+        {
+            "code": "DREAMTOGETHER",
+            "reward": [
+                {
+                    "name": "烈焰浓茶",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1711468800000
+        },
+        {
+            "code": "0206GRANDOPEN",
+            "reward": [
+                {
+                    "name": "能量饮料",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1711468800000
+        },
+        {
+            "code": "0206PENACONY",
+            "reward": [
+                {
+                    "name": "热浮羊奶",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1711468800000
+        },
+        {
+            "code": "DIVEINTODREAMS",
+            "reward": [
+                {
+                    "name": "罐装快乐水",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1711468800000
+        },
+        {
+            "code": "2B8PN53ABVQT",
+            "reward": [
+                {
+                    "name": "“Dreamlight” Mixed Sweets",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1710864000000
+        },
+        {
+            "code": "3SRN6L3AADLK",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 50000
+                }
+            ],
+            "expire": 1710604800000
+        },
+        {
+            "code": "YTRN743TSUL7",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 5
+                }
+            ],
+            "expire": 1710604800000
+        },
+        {
+            "code": "2S8N6M3ATV6T",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "提纯以太",
+                    "cnt": 4
+                }
+            ],
+            "expire": 1710604800000
+        },
+        {
+            "code": "6B976L2STURF",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1709136000000
         },
         {
             "code": "ZA9674JSAUPF",

@@ -30,6 +30,11 @@ reward_map = {
     "Flaming Potent Tea": "烈焰浓茶",
     "Steamed Puffergoat Milk": "热浮羊奶",
     "Bottled Soda": "罐装快乐水",
+    "All or Nothing": "孤注一掷",
+    "“Sour Dreams” Soft Candy": "「酸梦」牌软糖",
+    "High-Tech Protective Gear": "科技护具",
+    "Sweet Dreams Soda": "好梦气泡饮",
+    "“Dreamlight” Mixed Sweets": "「彩梦」什锦糖果",
 }
 
 
@@ -60,7 +65,7 @@ def parse_code(tr: Tag) -> Code:
         _, expire = datetime(1970, 1, 1, 1, 0, 0, 0), datetime(2099, 12, 31, 23, 59, 59, 999999)
     if isinstance(expire, str):
         try:
-            expire = expire.split(": ")[1].replace("</td>", "")
+            expire = expire.split(": ")[1].replace("</td>", "").replace("<td>", "")
             if "Unknown" in expire:
                 expire = datetime(2099, 12, 31, 23, 59, 59, 999999)
             elif "Expired" in expire:
@@ -72,8 +77,8 @@ def parse_code(tr: Tag) -> Code:
                 expire = expire.replace(year=datetime.now().year)
         except IndexError:
             expire = datetime(2099, 12, 31, 23, 59, 59, 999999)
-        expire = timezone("Asia/Shanghai").localize(expire)
-        expire = int(expire.timestamp() * 1000)
+    expire = timezone("Asia/Shanghai").localize(expire)
+    expire = int(expire.timestamp() * 1000)
     rewards = []
     for reward in str(tds[1]).split("<br/>"):
         reward_soup = BeautifulSoup(reward, "lxml")

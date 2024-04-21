@@ -121,10 +121,68 @@
     ],
     "over": [
         {
+            "code": "BTKBH6P47B77",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "LUCKYGAME",
+            "reward": [
+                {
+                    "name": "凝缩以太",
+                    "cnt": 3
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "ALLORNOTHING",
+            "reward": [
+                {
+                    "name": "孤注一掷",
+                    "cnt": 1
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "CHARMEDONE",
+            "reward": [
+                {
+                    "name": "冒险记录",
+                    "cnt": 4
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "GOODFORTUNE",
+            "reward": [
+                {
+                    "name": "遗失碎金",
+                    "cnt": 3
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "HSR1YEAR",
             "reward": [
                 {
-                    "name": "All or Nothing",
+                    "name": "孤注一掷",
                     "cnt": 1
                 },
                 {
@@ -138,7 +196,7 @@
             "code": "0327Carnival",
             "reward": [
                 {
-                    "name": "“Sour Dreams” Soft Candy",
+                    "name": "「酸梦」牌软糖",
                     "cnt": 2
                 },
                 {
@@ -170,7 +228,7 @@
                     "cnt": 3
                 },
                 {
-                    "name": "“Sour Dreams” Soft Candy",
+                    "name": "「酸梦」牌软糖",
                     "cnt": 2
                 }
             ],
@@ -186,6 +244,20 @@
                 {
                     "name": "信用点",
                     "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "POMPOMPOWER",
+            "reward": [
+                {
+                    "name": "科技护具",
+                    "cnt": 1
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
                 }
             ],
             "expire": 4102415999999
@@ -325,6 +397,26 @@
             "expire": 1731600000000
         },
         {
+            "code": "5AJTZPPMN8VB",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                }
+            ],
+            "expire": 1713974400000
+        },
+        {
+            "code": "QBJTY77MN9T7",
+            "reward": [
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1713974400000
+        },
+        {
             "code": "SB87P52BTVQ3",
             "reward": [
                 {
@@ -347,7 +439,7 @@
             "code": "VEGASHSR",
             "reward": [
                 {
-                    "name": "Sweet Dreams Soda",
+                    "name": "好梦气泡饮",
                     "cnt": 2
                 },
                 {
@@ -361,7 +453,7 @@
             "code": "SWEETDREAMS",
             "reward": [
                 {
-                    "name": "Sweet Dreams Soda",
+                    "name": "好梦气泡饮",
                     "cnt": 2
                 },
                 {
@@ -431,7 +523,7 @@
             "code": "2B8PN53ABVQT",
             "reward": [
                 {
-                    "name": "“Dreamlight” Mixed Sweets",
+                    "name": "「彩梦」什锦糖果",
                     "cnt": 3
                 },
                 {

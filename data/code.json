@@ -121,7 +121,7 @@
     ],
     "over": [
         {
-            "code": "VAJEGY4MNMDK",
+            "code": "FA2CU3P7P6QT",
             "reward": [
                 {
                     "name": "星琼",
@@ -135,11 +135,29 @@
             "expire": 4102415999999
         },
         {
-            "code": "ROBININSIDE",
+            "code": "HSRGFN24",
             "reward": [
                 {
-                    "name": "冒险记录",
-                    "cnt": 2
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "凝缩以太",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 30000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "VAJEGY4MNMDK",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
                 },
                 {
                     "name": "信用点",
@@ -351,6 +369,20 @@
                 }
             ],
             "expire": 1731600000000
+        },
+        {
+            "code": "ROBININSIDE",
+            "reward": [
+                {
+                    "name": "冒险记录",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1715443200000
         },
         {
             "code": "BTKBH6P47B77",

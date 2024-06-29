@@ -121,6 +121,24 @@
     ],
     "over": [
         {
+            "code": "JB3F5KH6BFG7",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 2
+                },
+                {
+                    "name": "Dreamville Special",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "SEABLAZE",
             "reward": [
                 {

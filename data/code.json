@@ -121,6 +121,24 @@
     ],
     "over": [
         {
+            "code": "KSKWLYVC75NB",
+            "reward": [
+                {
+                    "name": "Fuel",
+                    "cnt": 2
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 2
+                },
+                {
+                    "name": "提纯以太",
+                    "cnt": 2
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "WAKE4HCV745T",
             "reward": [
                 {

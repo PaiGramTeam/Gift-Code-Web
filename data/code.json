@@ -121,6 +121,38 @@
     ],
     "over": [
         {
+            "code": "YUNLIGIFT",
+            "reward": [
+                {
+                    "name": "热浮羊奶",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "HAOCHIXIANZHOU",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Sparse Aether",
+                    "cnt": 3
+                },
+                {
+                    "name": "热浮羊奶",
+                    "cnt": 3
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "ATKEJEY47CLP",
             "reward": [
                 {

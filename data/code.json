@@ -149,6 +149,24 @@
             "expire": 4102415999999
         },
         {
+            "code": "BKWHQ9B3G7T1M",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Immortal’s Delight",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "NOHOTFOODPLEASE",
             "reward": [
                 {

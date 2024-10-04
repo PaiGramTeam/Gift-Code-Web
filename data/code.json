@@ -259,20 +259,6 @@
             "expire": 4102415999999
         },
         {
-            "code": "NOHOTFOODPLEASE",
-            "reward": [
-                {
-                    "name": "漫游指南",
-                    "cnt": 3
-                },
-                {
-                    "name": "Five Grain Jade Elixir",
-                    "cnt": 2
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
             "code": "HJSZQ4C8H2F6W",
             "reward": [
                 {
@@ -521,6 +507,20 @@
                 }
             ],
             "expire": 1731600000000
+        },
+        {
+            "code": "NOHOTFOODPLEASE",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Five Grain Jade Elixir",
+                    "cnt": 2
+                }
+            ],
+            "expire": 1727884800000
         },
         {
             "code": "AA2G7664C2RX",

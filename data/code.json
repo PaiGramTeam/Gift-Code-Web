@@ -121,7 +121,7 @@
     ],
     "over": [
         {
-            "code": "5T3Y6764D3Q3",
+            "code": "EB3KUYQW833P",
             "reward": [
                 {
                     "name": "星琼",
@@ -130,6 +130,70 @@
                 {
                     "name": "信用点",
                     "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "MISTERRATIO",
+            "reward": [
+                {
+                    "name": "Origami Cake",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "RAPPANINJADICT",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Full-Auto Dreampaint Spray",
+                    "cnt": 4
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "H2J8F3P6R9T2",
+            "reward": [
+                {
+                    "name": "Banasocial Etiquette",
+                    "cnt": 3
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "KFWJM3H8L1Q6Y",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Rejuvenation Pellet",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
                 }
             ],
             "expire": 4102415999999
@@ -180,62 +244,6 @@
                 {
                     "name": "信用点",
                     "cnt": 20000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "FeixiaoGeneral",
-            "reward": [
-                {
-                    "name": "Five-Grain Jade Elixir",
-                    "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "Feixiao0910",
-            "reward": [
-                {
-                    "name": "Jade Marrow Diffusion",
-                    "cnt": 2
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "HSRRAZERLA25",
-            "reward": [
-                {
-                    "name": "罐装快乐水",
-                    "cnt": 3
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 20000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "FeixiaoFiles",
-            "reward": [
-                {
-                    "name": "Five-Grain Jade Elixir",
-                    "cnt": 2
-                },
-                {
-                    "name": "Lost Crystal",
-                    "cnt": 3
                 }
             ],
             "expire": 4102415999999
@@ -507,6 +515,76 @@
                 }
             ],
             "expire": 1731600000000
+        },
+        {
+            "code": "5T3Y6764D3Q3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1729612800000
+        },
+        {
+            "code": "FeixiaoGeneral",
+            "reward": [
+                {
+                    "name": "Five-Grain Jade Elixir",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1729612800000
+        },
+        {
+            "code": "Feixiao0910",
+            "reward": [
+                {
+                    "name": "Jade Marrow Diffusion",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1729612800000
+        },
+        {
+            "code": "HSRRAZERLA25",
+            "reward": [
+                {
+                    "name": "罐装快乐水",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1729612800000
+        },
+        {
+            "code": "FeixiaoFiles",
+            "reward": [
+                {
+                    "name": "Five-Grain Jade Elixir",
+                    "cnt": 2
+                },
+                {
+                    "name": "Lost Crystal",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1729612800000
         },
         {
             "code": "NOHOTFOODPLEASE",

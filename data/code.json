@@ -121,7 +121,7 @@
     ],
     "over": [
         {
-            "code": "EB3KUYQW833P",
+            "code": "3A23UG9FR24T",
             "reward": [
                 {
                     "name": "星琼",
@@ -135,15 +135,107 @@
             "expire": 4102415999999
         },
         {
-            "code": "MISTERRATIO",
+            "code": "K9NLG1T3V7K5",
             "reward": [
                 {
-                    "name": "Origami Cake",
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Reduce Bananxiety",
                     "cnt": 3
                 },
                 {
                     "name": "信用点",
                     "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "ZTMQB1L5W7H9S",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Immortal Delight",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "CM26EFGH5678",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "HBKKDH9FR3NX",
+            "reward": [
+                {
+                    "name": "Lost Crystal",
+                    "cnt": 3
+                },
+                {
+                    "name": "Scare Box",
+                    "cnt": 2
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "RAPPAISHERE",
+            "reward": [
+                {
+                    "name": "Dazzling Ninja Provisions",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "4AKKCZQF92P3",
+            "reward": [
+                {
+                    "name": "Lost Crystal",
+                    "cnt": 3
+                },
+                {
+                    "name": "Dreamlight Mixed Sweets",
+                    "cnt": 2
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "EB3KUYQW833P",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
                 }
             ],
             "expire": 4102415999999
@@ -208,6 +300,20 @@
                 {
                     "name": "信用点",
                     "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "MISTERRATIO",
+            "reward": [
+                {
+                    "name": "Origami Cake",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
                 }
             ],
             "expire": 4102415999999

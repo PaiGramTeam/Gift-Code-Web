@@ -121,6 +121,24 @@
     ],
     "over": [
         {
+            "code": "STARRAILKARAOKE",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "冒险记录",
+                    "cnt": 3
+                },
+                {
+                    "name": "Full-Auto Dreampaint Spray",
+                    "cnt": 2
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "3A23UG9FR24T",
             "reward": [
                 {

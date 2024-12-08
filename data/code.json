@@ -121,24 +121,10 @@
     ],
     "over": [
         {
-            "code": "HSR1YEAR",
+            "code": "TINGYUNISBACK",
             "reward": [
                 {
-                    "name": "All or Nothing",
-                    "cnt": 1
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "0327Carnival",
-            "reward": [
-                {
-                    "name": "“Sour Dreams” Soft Candy",
+                    "name": "Immortal’s Delight",
                     "cnt": 2
                 },
                 {
@@ -149,7 +135,7 @@
             "expire": 4102415999999
         },
         {
-            "code": "ST3SHPNLNTN3",
+            "code": "VBKJP473VCS3",
             "reward": [
                 {
                     "name": "星琼",
@@ -163,15 +149,97 @@
             "expire": 4102415999999
         },
         {
-            "code": "MOREPEACH",
+            "code": "YF61G7F3P4Q2",
+            "reward": [
+                {
+                    "name": "信用点",
+                    "cnt": 30000
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "HAPPYSUNDAY",
+            "reward": [
+                {
+                    "name": "Halovian Winged Burger",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "SUNDAYCALENDAR",
             "reward": [
                 {
                     "name": "漫游指南",
                     "cnt": 3
                 },
                 {
-                    "name": "“Sour Dreams” Soft Candy",
+                    "name": "Classic SoulGlad",
                     "cnt": 2
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "VCUB4T2V4L8N5",
+            "reward": [
+                {
+                    "name": "提纯以太",
+                    "cnt": 3
+                },
+                {
+                    "name": "Classic SoulGlad",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "WOVPRK19JGM41",
+            "reward": [
+                {
+                    "name": "Lost Crystal",
+                    "cnt": 3
+                },
+                {
+                    "name": "Dreamy Cone",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "STARRAILOSAKA(Only for Asia Server)",
+            "reward": [
+                {
+                    "name": "冒险记录",
+                    "cnt": 2
+                },
+                {
+                    "name": "Lost Gold Fragment",
+                    "cnt": 2
+                },
+                {
+                    "name": "Crystal Lizard Satay",
+                    "cnt": 3
                 }
             ],
             "expire": 4102415999999
@@ -186,6 +254,76 @@
                 {
                     "name": "信用点",
                     "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "MISTERRATIO",
+            "reward": [
+                {
+                    "name": "Origami Cake",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "HSR1YEAR",
+            "reward": [
+                {
+                    "name": "孤注一掷",
+                    "cnt": 1
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "0327Carnival",
+            "reward": [
+                {
+                    "name": "「酸梦」牌软糖",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "MOREPEACH",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "「酸梦」牌软糖",
+                    "cnt": 2
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "POMPOMPOWER",
+            "reward": [
+                {
+                    "name": "科技护具",
+                    "cnt": 1
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
                 }
             ],
             "expire": 4102415999999
@@ -297,6 +435,236 @@
             "expire": 1735228800000
         },
         {
+            "code": "K9NLG1T3V7K5",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Reduce Bananxiety",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1733414400000
+        },
+        {
+            "code": "ZTMQB1L5W7H9S",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Immortal Delight",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1733414400000
+        },
+        {
+            "code": "CM26EFGH5678",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1733414400000
+        },
+        {
+            "code": "RAPPANINJADICT",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Full-Auto Dreampaint Spray",
+                    "cnt": 4
+                }
+            ],
+            "expire": 1733414400000
+        },
+        {
+            "code": "H2J8F3P6R9T2",
+            "reward": [
+                {
+                    "name": "Banasocial Etiquette",
+                    "cnt": 3
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1733414400000
+        },
+        {
+            "code": "KFWJM3H8L1Q6Y",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Rejuvenation Pellet",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1733414400000
+        },
+        {
+            "code": "STARRAILKARAOKE",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "冒险记录",
+                    "cnt": 3
+                },
+                {
+                    "name": "Full-Auto Dreampaint Spray",
+                    "cnt": 2
+                }
+            ],
+            "expire": 1733241600000
+        },
+        {
+            "code": "3A23UG9FR24T",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1733241600000
+        },
+        {
+            "code": "RAPPAISHERE",
+            "reward": [
+                {
+                    "name": "Dazzling Ninja Provisions",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1733241600000
+        },
+        {
+            "code": "EB3KUYQW833P",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1733241600000
+        },
+        {
+            "code": "DSJKDYQF82J3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "提纯以太",
+                    "cnt": 4
+                }
+            ],
+            "expire": 1732291200000
+        },
+        {
+            "code": "MTJ2CG9XRK2F",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 5
+                }
+            ],
+            "expire": 1732291200000
+        },
+        {
+            "code": "UAJJDY9E8JJT",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 50000
+                }
+            ],
+            "expire": 1732291200000
+        },
+        {
+            "code": "4AKKCZQF92P3",
+            "reward": [
+                {
+                    "name": "Lost Crystal",
+                    "cnt": 3
+                },
+                {
+                    "name": "Dreamlight Mixed Sweets",
+                    "cnt": 2
+                }
+            ],
+            "expire": 1732204800000
+        },
+        {
+            "code": "HBKKDH9FR3NX",
+            "reward": [
+                {
+                    "name": "Lost Crystal",
+                    "cnt": 3
+                },
+                {
+                    "name": "Scare Box",
+                    "cnt": 2
+                }
+            ],
+            "expire": 1732204800000
+        },
+        {
             "code": "KBQBEP3L8823",
             "reward": [
                 {
@@ -325,6 +693,648 @@
             "expire": 1731600000000
         },
         {
+            "code": "lingshaquiz",
+            "reward": [
+                {
+                    "name": "Traveler’s Guides",
+                    "cnt": 3
+                },
+                {
+                    "name": "Jade Marrow Diffusion",
+                    "cnt": 2
+                }
+            ],
+            "expire": 1729699200000
+        },
+        {
+            "code": "VNQCT6Y2L8N4K",
+            "reward": [
+                {
+                    "name": "提纯以太",
+                    "cnt": 3
+                },
+                {
+                    "name": "Health Detox Pill",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1729699200000
+        },
+        {
+            "code": "MGLFK6N2C8Y4V",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Jade Marrow Diffusion",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1729699200000
+        },
+        {
+            "code": "BKWHQ9B3G7T1M",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Immortal’s Delight",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1729699200000
+        },
+        {
+            "code": "HJSZQ4C8H2F6W",
+            "reward": [
+                {
+                    "name": "Lost Crystal",
+                    "cnt": 3
+                },
+                {
+                    "name": "Amber Huadiao Wine",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1729699200000
+        },
+        {
+            "code": "CM25RWG44W62",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 5
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 30000
+                }
+            ],
+            "expire": 1729699200000
+        },
+        {
+            "code": "XRPTL1P7K5H8W",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1729699200000
+        },
+        {
+            "code": "5T3Y6764D3Q3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1729612800000
+        },
+        {
+            "code": "FeixiaoGeneral",
+            "reward": [
+                {
+                    "name": "Five-Grain Jade Elixir",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1729612800000
+        },
+        {
+            "code": "Feixiao0910",
+            "reward": [
+                {
+                    "name": "Jade Marrow Diffusion",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1729612800000
+        },
+        {
+            "code": "HSRRAZERLA25",
+            "reward": [
+                {
+                    "name": "罐装快乐水",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1729612800000
+        },
+        {
+            "code": "FeixiaoFiles",
+            "reward": [
+                {
+                    "name": "Five-Grain Jade Elixir",
+                    "cnt": 2
+                },
+                {
+                    "name": "Lost Crystal",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1729612800000
+        },
+        {
+            "code": "NOHOTFOODPLEASE",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Five Grain Jade Elixir",
+                    "cnt": 2
+                }
+            ],
+            "expire": 1727884800000
+        },
+        {
+            "code": "AA2G7664C2RX",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1727798400000
+        },
+        {
+            "code": "3S3XKXZ5NU27",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1725897600000
+        },
+        {
+            "code": "HAOCHIXIANZHOU",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Sparse Aether",
+                    "cnt": 3
+                },
+                {
+                    "name": "热浮羊奶",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1725897600000
+        },
+        {
+            "code": "YUNLISNACK",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Berrypheasant Skewers",
+                    "cnt": 6
+                }
+            ],
+            "expire": 1725897600000
+        },
+        {
+            "code": "YUNLIGIFT",
+            "reward": [
+                {
+                    "name": "热浮羊奶",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1724169600000
+        },
+        {
+            "code": "ATKEJEY47CLP",
+            "reward": [
+                {
+                    "name": "旅情见闻",
+                    "cnt": 5
+                },
+                {
+                    "name": "Scalegorge Spring Water",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1724169600000
+        },
+        {
+            "code": "QB2XKWZLNUK3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1724169600000
+        },
+        {
+            "code": "SEABLAZE",
+            "reward": [
+                {
+                    "name": "Pika White Grape Soda",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1722355200000
+        },
+        {
+            "code": "FIREFLY0619",
+            "reward": [
+                {
+                    "name": "Oak Cake Roll",
+                    "cnt": 1
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 5000
+                }
+            ],
+            "expire": 1722355200000
+        },
+        {
+            "code": "KSKWLYVC75NB",
+            "reward": [
+                {
+                    "name": "Fuel",
+                    "cnt": 2
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 2
+                },
+                {
+                    "name": "提纯以太",
+                    "cnt": 2
+                }
+            ],
+            "expire": 1722355200000
+        },
+        {
+            "code": "WAKE4HCV745T",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1722355200000
+        },
+        {
+            "code": "FIREFLYSGIFT",
+            "reward": [
+                {
+                    "name": "Oak Cake Roll",
+                    "cnt": 2
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1722355200000
+        },
+        {
+            "code": "JB3F5KH6BFG7",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 2
+                },
+                {
+                    "name": "Dreamville Special",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1720627200000
+        },
+        {
+            "code": "6T3F5HVD6LK7",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1720627200000
+        },
+        {
+            "code": "FA2CU3P7P6QT",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1718726400000
+        },
+        {
+            "code": "HSRGFN24",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "凝缩以太",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 30000
+                }
+            ],
+            "expire": 1718726400000
+        },
+        {
+            "code": "VAJEGY4MNMDK",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1718726400000
+        },
+        {
+            "code": "3AJUD36P766B",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 50000
+                }
+            ],
+            "expire": 1717776000000
+        },
+        {
+            "code": "DA3VV367PP7X",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "Traveler’s Guide Traveler’s Guide",
+                    "cnt": 5
+                }
+            ],
+            "expire": 1717776000000
+        },
+        {
+            "code": "QB3DC36PP673",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "凝缩以太",
+                    "cnt": 4
+                }
+            ],
+            "expire": 1717776000000
+        },
+        {
+            "code": "ROBININSIDE",
+            "reward": [
+                {
+                    "name": "冒险记录",
+                    "cnt": 2
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1715443200000
+        },
+        {
+            "code": "BTKBH6P47B77",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1715097600000
+        },
+        {
+            "code": "ST3SHPNLNTN3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1715097600000
+        },
+        {
+            "code": "LUCKYGAME",
+            "reward": [
+                {
+                    "name": "凝缩以太",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1715011200000
+        },
+        {
+            "code": "ALLORNOTHING",
+            "reward": [
+                {
+                    "name": "孤注一掷",
+                    "cnt": 1
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1715011200000
+        },
+        {
+            "code": "CHARMEDONE",
+            "reward": [
+                {
+                    "name": "冒险记录",
+                    "cnt": 4
+                }
+            ],
+            "expire": 1715011200000
+        },
+        {
+            "code": "GOODFORTUNE",
+            "reward": [
+                {
+                    "name": "遗失碎金",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1715011200000
+        },
+        {
+            "code": "VSKTGNPMNBRB",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 50000
+                }
+            ],
+            "expire": 1714147200000
+        },
+        {
+            "code": "BT3BG67LPS9X",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "漫游指南",
+                    "cnt": 5
+                }
+            ],
+            "expire": 1714147200000
+        },
+        {
+            "code": "RSKSYP646TR3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                },
+                {
+                    "name": "凝缩以太",
+                    "cnt": 4
+                }
+            ],
+            "expire": 1714147200000
+        },
+        {
+            "code": "QBJTY77MN9T7",
+            "reward": [
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 1713974400000
+        },
+        {
+            "code": "5AJTZPPMN8VB",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 100
+                }
+            ],
+            "expire": 1713974400000
+        },
+        {
             "code": "SB87P52BTVQ3",
             "reward": [
                 {
@@ -347,7 +1357,7 @@
             "code": "VEGASHSR",
             "reward": [
                 {
-                    "name": "Sweet Dreams Soda",
+                    "name": "好梦气泡饮",
                     "cnt": 2
                 },
                 {
@@ -361,7 +1371,7 @@
             "code": "SWEETDREAMS",
             "reward": [
                 {
-                    "name": "Sweet Dreams Soda",
+                    "name": "好梦气泡饮",
                     "cnt": 2
                 },
                 {
@@ -431,7 +1441,7 @@
             "code": "2B8PN53ABVQT",
             "reward": [
                 {
-                    "name": "“Dreamlight” Mixed Sweets",
+                    "name": "「彩梦」什锦糖果",
                     "cnt": 3
                 },
                 {

@@ -46,9 +46,10 @@ def parse_reward(reward: List[str]) -> Reward:
             if not re.search("[\u4e00-\u9fa5]", reward[0]):
                 print("Unknown reward: ", reward[0])
             name = reward[0]
+        cnt = int(reward[1].replace(",", ""))
         return Reward(
             name=name,
-            cnt=int(reward[1]),
+            cnt=cnt,
         )
     except Exception as e:
         print("Bad reward data: ", reward)

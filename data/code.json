@@ -121,6 +121,116 @@
     ],
     "over": [
         {
+            "code": "HSRNEWYEAR2025",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "BZ61Z8D5Q6K1",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Immortal’s Delight",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "AS3J6MNJVCA7",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "HSRFUGUE1225",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Immortal’s Delight",
+                    "cnt": 2
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "STARRAILTREND2024",
+            "reward": [
+                {
+                    "name": "漫游指南",
+                    "cnt": 3
+                },
+                {
+                    "name": "Potato Fries Sundae",
+                    "cnt": 2
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "TT33Z3K5T7V1",
+            "reward": [
+                {
+                    "name": "Lost Crystal",
+                    "cnt": 3
+                },
+                {
+                    "name": "Clockie Pizza",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
+            "code": "QI75N8V1J2G7",
+            "reward": [
+                {
+                    "name": "提纯以太",
+                    "cnt": 3
+                },
+                {
+                    "name": "Dreamville Special",
+                    "cnt": 3
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 20000
+                }
+            ],
+            "expire": 4102415999999
+        },
+        {
             "code": "TINGYUNISBACK",
             "reward": [
                 {
@@ -130,20 +240,6 @@
                 {
                     "name": "信用点",
                     "cnt": 5000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "VBKJP473VCS3",
-            "reward": [
-                {
-                    "name": "星琼",
-                    "cnt": 50
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 10000
                 }
             ],
             "expire": 4102415999999
@@ -222,24 +318,6 @@
                 {
                     "name": "信用点",
                     "cnt": 20000
-                }
-            ],
-            "expire": 4102415999999
-        },
-        {
-            "code": "STARRAILOSAKA(Only for Asia Server)",
-            "reward": [
-                {
-                    "name": "冒险记录",
-                    "cnt": 2
-                },
-                {
-                    "name": "Lost Gold Fragment",
-                    "cnt": 2
-                },
-                {
-                    "name": "Crystal Lizard Satay",
-                    "cnt": 3
                 }
             ],
             "expire": 4102415999999
@@ -432,7 +510,67 @@
                     "cnt": 10000
                 }
             ],
-            "expire": 1735228800000
+            "expire": 1766764800000
+        },
+        {
+            "code": "KBQBEP3L8823",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1763136000000
+        },
+        {
+            "code": "PT8TF72MQ93X",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1763136000000
+        },
+        {
+            "code": "VBKJP473VCS3",
+            "reward": [
+                {
+                    "name": "星琼",
+                    "cnt": 50
+                },
+                {
+                    "name": "信用点",
+                    "cnt": 10000
+                }
+            ],
+            "expire": 1735660800000
+        },
+        {
+            "code": "STARRAILOSAKA(Only for Asia Server)",
+            "reward": [
+                {
+                    "name": "冒险记录",
+                    "cnt": 2
+                },
+                {
+                    "name": "Lost Gold Fragment",
+                    "cnt": 2
+                },
+                {
+                    "name": "Crystal Lizard Satay",
+                    "cnt": 3
+                }
+            ],
+            "expire": 1735660800000
         },
         {
             "code": "K9NLG1T3V7K5",
@@ -663,34 +801,6 @@
                 }
             ],
             "expire": 1732204800000
-        },
-        {
-            "code": "KBQBEP3L8823",
-            "reward": [
-                {
-                    "name": "星琼",
-                    "cnt": 50
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 10000
-                }
-            ],
-            "expire": 1731600000000
-        },
-        {
-            "code": "PT8TF72MQ93X",
-            "reward": [
-                {
-                    "name": "星琼",
-                    "cnt": 50
-                },
-                {
-                    "name": "信用点",
-                    "cnt": 10000
-                }
-            ],
-            "expire": 1731600000000
         },
         {
             "code": "lingshaquiz",

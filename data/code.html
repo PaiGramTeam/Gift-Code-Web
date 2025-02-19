@@ -79,7 +79,6 @@
                         <tr>
                             <th>兑换码</th>
                             <th>奖励</th>
-                            <th>到期时间</th>
                         </tr>
                         </thead>
                         <tbody id="main-true">
@@ -91,7 +90,6 @@
                         <tr>
                             <th>兑换码</th>
                             <th>奖励</th>
-                            <th>到期时间</th>
                         </tr>
                         </thead>
                         <tbody id="main-false">
@@ -109,7 +107,6 @@
                         <tr>
                             <th>兑换码</th>
                             <th>奖励</th>
-                            <th>到期时间</th>
                         </tr>
                         </thead>
                         <tbody id="over-true">
@@ -121,7 +118,6 @@
                         <tr>
                             <th>兑换码</th>
                             <th>奖励</th>
-                            <th>到期时间</th>
                         </tr>
                         </thead>
                         <tbody id="over-false">
@@ -144,9 +140,7 @@
 
 <script>
     function addRow(tableId, data) {
-        let now = new Date();
-        let expire_time = new Date(data.expire);
-        if (now > expire_time) {
+        if (data.expire) {
             tableId += "-false";
         } else {
             tableId += "-true";
@@ -158,14 +152,11 @@
         let reward = document.createElement("td");
         data.reward.forEach(function (item) {
             let p = document.createElement("p");
-            p.innerHTML = item.name + " x" + item.cnt;
+            p.innerHTML = item;
             reward.appendChild(p);
         });
-        let expire = document.createElement("td");
-        expire.innerHTML = expire_time.toLocaleString();
         new_tr.appendChild(code);
         new_tr.appendChild(reward);
-        new_tr.appendChild(expire);
         table.appendChild(new_tr);
     }
 

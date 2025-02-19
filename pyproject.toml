@@ -1,0 +1,12 @@
+[project]
+name = "gift-code-web"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic",
+    "httpx",
+    "beautifulsoup4",
+    "lxml",
+]

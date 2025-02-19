@@ -3,15 +3,10 @@ from typing import List
 from pydantic import BaseModel
 
 
-class Reward(BaseModel):
-    name: str
-    cnt: int
-
-
 class Code(BaseModel):
     code: str
-    reward: List[Reward]
-    expire: int
+    reward: List[str]
+    expire: bool
 
 
 class CodeList(BaseModel):

@@ -10,6 +10,14 @@
             "expire": false
         },
         {
+            "code": "WHEREISTRIBBIE",
+            "reward": [
+                "3 Traveler's Guide",
+                "2 Oronyx Slate"
+            ],
+            "expire": false
+        },
+        {
             "code": "HSRCHOCOLATE2025",
             "reward": [
                 "6 Adventure Log",
@@ -18,193 +26,10 @@
             "expire": false
         },
         {
-            "code": "XYZ7OPQR9012",
-            "reward": [
-                "Freebies"
-            ],
-            "expire": false
-        },
-        {
-            "code": "AGLAEAGIFT4",
-            "reward": [
-                "2 Chrysis Heir Dolium",
-                "3 Traveler's Guide"
-            ],
-            "expire": false
-        },
-        {
-            "code": "5O6PU1V2W3X4",
-            "reward": [
-                "3 Dried Sagelore Fruit",
-                "3 Traveler's Guide",
-                "20,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "M1K2I1J2K3L4",
-            "reward": [
-                "3 Disposable Kinetic Cannon",
-                "3 Lost Crystal",
-                "20,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "PS9RM3N4O5P6",
-            "reward": [
-                "3 Rough-Brew Ambrosia",
-                "3 Traveler's Guide",
-                "20,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "PYB9C9D0E1F2",
-            "reward": [
-                "3 Tasty Field Nutrient Bar",
-                "3 Traveler's Guide",
-                "20,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "3V2WG3H4I5J6",
-            "reward": [
-                "3 Refined Aether",
-                "3 Energy Drink",
-                "20,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "W7X8Q8R9S0T1",
-            "reward": [
-                "3 Lost Crystal",
-                "3 Topological Acceleration Band",
-                "20,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "O7P8G3H4I5J6",
-            "reward": [
-                "3 Refined Aether",
-                "3 Automatic Wooden Dummy",
-                "20,000 Credits"
-            ],
-            "expire": false
-        },
-        {
             "code": "IFYOUAREREADINGTHIS",
             "reward": [
                 "60 Stellar Jade",
                 "1 Fuel"
-            ],
-            "expire": false
-        },
-        {
-            "code": "HERTAGIFT",
-            "reward": [
-                "6 Adventure Log",
-                "2 Automatic Wooden Dummy"
-            ],
-            "expire": false
-        },
-        {
-            "code": "NEWWORLD0115",
-            "reward": [
-                "3 Steelclaw Dagger",
-                "20,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "THEHERTAGIFT",
-            "reward": [
-                "6 Adventure Log",
-                "2 Disposable Shield"
-            ],
-            "expire": false
-        },
-        {
-            "code": "ABC1CDEF0123",
-            "reward": [
-                "50 Stellar Jade",
-                "10,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "EAJJPMN3DDE3",
-            "reward": [
-                "100 Stellar Jade",
-                "4 Refined Aether"
-            ],
-            "expire": false
-        },
-        {
-            "code": "THISISTHEHERTA",
-            "reward": [
-                "10,000 Credits",
-                "2 Life Transmitter"
-            ],
-            "expire": false
-        },
-        {
-            "code": "HELLOAMPHOREUS",
-            "reward": [
-                "10,000 Credits",
-                "2 High-Tech Protective Gear"
-            ],
-            "expire": false
-        },
-        {
-            "code": "REMEMBRANCE",
-            "reward": [
-                "5,000 Credits",
-                "2 Potato Fries Sundae"
-            ],
-            "expire": false
-        },
-        {
-            "code": "AWAITSYOURLIGHT",
-            "reward": [
-                "5,000 Credits",
-                "2 Golden Slumbernana"
-            ],
-            "expire": false
-        },
-        {
-            "code": "THEETERNALLAND",
-            "reward": [
-                "5,000 Credits",
-                "2 Alfafa Salad"
-            ],
-            "expire": false
-        },
-        {
-            "code": "AMPHOREUS0115",
-            "reward": [
-                "5,000 Credits",
-                "2 Clockie Pizza (Whole)"
-            ],
-            "expire": false
-        },
-        {
-            "code": "LIGHTTHEWAY",
-            "reward": [
-                "5,000 Credits",
-                "2 Odd Gummy Candy"
-            ],
-            "expire": false
-        },
-        {
-            "code": "DEF3C9D0E1F2",
-            "reward": [
-                "20,000 Credits",
-                "3 Traveler's Guide",
-                "3 Cosmic Fried Rice"
             ],
             "expire": false
         },
@@ -219,19 +44,210 @@
             "expire": false
         },
         {
-            "code": "HSRNEWYEAR2025",
-            "reward": [
-                "20,000 Credits",
-                "3 Traveler's Guide"
-            ],
-            "expire": false
-        },
-        {
             "code": "STARRAILGIFT",
             "reward": [
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "ABC1CDEF0123",
+            "reward": [
+                "50 Stellar Jade",
+                "10,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "EAJJPMN3DDE3",
+            "reward": [
+                "100 Stellar Jade",
+                "4 Refined Aether"
+            ],
+            "expire": true
+        },
+        {
+            "code": "XYZ7OPQR9012",
+            "reward": [
+                "Freebies"
+            ],
+            "expire": true
+        },
+        {
+            "code": "AGLAEAGIFT",
+            "reward": [
+                "2 Chrysis Heir Dolium",
+                "3 Traveler's Guide"
+            ],
+            "expire": true
+        },
+        {
+            "code": "BP6Q5Z6X7C8VB",
+            "reward": [
+                "20,000 Credits",
+                "3 Bija of Consciousness"
+            ],
+            "expire": true
+        },
+        {
+            "code": "3V2WG3H4I5J6",
+            "reward": [
+                "3 Refined Aether",
+                "3 Energy Drink",
+                "20,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "5O6PU1V2W3X4",
+            "reward": [
+                "3 Dried Sagelore Fruit",
+                "3 Traveler's Guide",
+                "20,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "PYB9C9D0E1F2",
+            "reward": [
+                "3 Tasty Field Nutrient Bar",
+                "3 Traveler's Guide",
+                "20,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "PS9RM3N4O5P6",
+            "reward": [
+                "3 Rough-Brew Ambrosia",
+                "3 Traveler's Guide",
+                "20,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "M1K2I1J2K3L4",
+            "reward": [
+                "3 Disposable Kinetic Cannon",
+                "3 Lost Crystal",
+                "20,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "O7P8G3H4I5J6",
+            "reward": [
+                "3 Refined Aether",
+                "3 Automatic Wooden Dummy",
+                "20,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "W7X8Q8R9S0T1",
+            "reward": [
+                "3 Lost Crystal",
+                "3 Topological Acceleration Band",
+                "20,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "NEWWORLD0115",
+            "reward": [
+                "3 Steelclaw Dagger",
+                "20,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "DEF3C9D0E1F2",
+            "reward": [
+                "20,000 Credits",
+                "3 Traveler's Guide",
+                "3 Cosmic Fried Rice"
+            ],
+            "expire": true
+        },
+        {
+            "code": "HSRNEWYEAR2025",
+            "reward": [
+                "20,000 Credits",
+                "3 Traveler's Guide"
+            ],
+            "expire": true
+        },
+        {
+            "code": "THISISTHEHERTA",
+            "reward": [
+                "10,000 Credits",
+                "2 Life Transmitter"
+            ],
+            "expire": true
+        },
+        {
+            "code": "HELLOAMPHOREUS",
+            "reward": [
+                "10,000 Credits",
+                "2 High-Tech Protective Gear"
+            ],
+            "expire": true
+        },
+        {
+            "code": "REMEMBRANCE",
+            "reward": [
+                "5,000 Credits",
+                "2 Potato Fries Sundae"
+            ],
+            "expire": true
+        },
+        {
+            "code": "AWAITSYOURLIGHT",
+            "reward": [
+                "5,000 Credits",
+                "2 Golden Slumbernana"
+            ],
+            "expire": true
+        },
+        {
+            "code": "THEETERNALLAND",
+            "reward": [
+                "5,000 Credits",
+                "2 Alfafa Salad"
+            ],
+            "expire": true
+        },
+        {
+            "code": "AMPHOREUS0115",
+            "reward": [
+                "5,000 Credits",
+                "2 Clockie Pizza (Whole)"
+            ],
+            "expire": true
+        },
+        {
+            "code": "LIGHTTHEWAY",
+            "reward": [
+                "5,000 Credits",
+                "2 Odd Gummy Candy"
+            ],
+            "expire": true
+        },
+        {
+            "code": "THEHERTAGIFT",
+            "reward": [
+                "6 Adventure Log",
+                "2 Disposable Shield"
+            ],
+            "expire": true
+        },
+        {
+            "code": "HERTAGIFT",
+            "reward": [
+                "6 Adventure Log",
+                "2 Automatic Wooden Dummy"
+            ],
+            "expire": true
         },
         {
             "code": "HSRAWAITSYOU",

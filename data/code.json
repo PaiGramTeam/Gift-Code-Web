@@ -2,6 +2,15 @@
     "main": [],
     "over": [
         {
+            "code": "HSRCHOCO",
+            "reward": [
+                "3 Traveler's Guide",
+                "3 Lost Lightdust",
+                "3 Trick Snack"
+            ],
+            "expire": false
+        },
+        {
             "code": "2A3LF64ANXSX",
             "reward": [
                 "50 Stellar Jade",

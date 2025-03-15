@@ -2,6 +2,14 @@
     "main": [],
     "over": [
         {
+            "code": "HSRWHITEDAY2025",
+            "reward": [
+                "6 Adventure Log",
+                "2 Hundred-Layer Sundae (Zero Calories)"
+            ],
+            "expire": false
+        },
+        {
             "code": "HSRCHOCO",
             "reward": [
                 "3 Traveler's Guide",
@@ -23,14 +31,6 @@
             "reward": [
                 "3 Traveler's Guide",
                 "2 Oronyx Slate"
-            ],
-            "expire": false
-        },
-        {
-            "code": "HSRCHOCOLATE2025",
-            "reward": [
-                "6 Adventure Log",
-                "2 Dreamlight Mixed Sweet"
             ],
             "expire": false
         },
@@ -58,6 +58,14 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "HSRCHOCOLATE2025",
+            "reward": [
+                "6 Adventure Log",
+                "2 Dreamlight Mixed Sweet"
+            ],
+            "expire": true
         },
         {
             "code": "ABC1CDEF0123",

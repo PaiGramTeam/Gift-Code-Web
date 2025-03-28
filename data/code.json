@@ -26,15 +26,6 @@
             "expire": false
         },
         {
-            "code": "HSRCHOCO",
-            "reward": [
-                "3 Traveler's Guide",
-                "3 Lost Lightdust",
-                "3 Trick Snack"
-            ],
-            "expire": false
-        },
-        {
             "code": "WHEREISTRIBBIE",
             "reward": [
                 "3 Traveler's Guide",
@@ -56,6 +47,15 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "HSRCHOCO",
+            "reward": [
+                "3 Traveler's Guide",
+                "3 Lost Lightdust",
+                "3 Trick Snack"
+            ],
+            "expire": true
         },
         {
             "code": "2A3LF64ANXSX",

@@ -2,18 +2,18 @@
     "main": [],
     "over": [
         {
-            "code": "FIGHTWELLMYDEI",
+            "code": "LS342LYLC5FP",
             "reward": [
-                "3 Traveler's Guide",
-                "2 Golden Honeycake"
+                "50 Stellar Jade",
+                "10,000 Credits"
             ],
             "expire": false
         },
         {
-            "code": "DBKMW7MA6XB3",
+            "code": "FIGHTWELLMYDEI",
             "reward": [
-                "50 Stellar Jade",
-                "10,000 Credits"
+                "3 Traveler's Guide",
+                "2 Golden Honeycake"
             ],
             "expire": false
         },
@@ -47,6 +47,14 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "DBKMW7MA6XB3",
+            "reward": [
+                "50 Stellar Jade",
+                "10,000 Credits"
+            ],
+            "expire": true
         },
         {
             "code": "DB22LWYXPSY3",

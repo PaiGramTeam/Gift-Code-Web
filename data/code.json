@@ -18,14 +18,6 @@
             "expire": false
         },
         {
-            "code": "HSRWHITEDAY2025",
-            "reward": [
-                "6 Adventure Log",
-                "2 Hundred-Layer Sundae (Zero Calories)"
-            ],
-            "expire": false
-        },
-        {
             "code": "WHEREISTRIBBIE",
             "reward": [
                 "3 Traveler's Guide",
@@ -47,6 +39,14 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "HSRWHITEDAY2025",
+            "reward": [
+                "6 Adventure Log",
+                "2 Hundred-Layer Sundae (Zero Calories)"
+            ],
+            "expire": true
         },
         {
             "code": "DBKMW7MA6XB3",

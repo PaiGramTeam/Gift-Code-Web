@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "EBKLKMGLVMG7",
+            "reward": [
+                "120 Stellar Jade"
+            ],
+            "expire": false
+        },
+        {
             "code": "LS342LYLC5FP",
             "reward": [
                 "50 Stellar Jade",

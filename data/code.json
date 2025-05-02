@@ -2,17 +2,25 @@
     "main": [],
     "over": [
         {
-            "code": "EBKLKMGLVMG7",
+            "code": "ATELIERANAXA",
             "reward": [
-                "120 Stellar Jade"
+                "3 Traveler's Guide",
+                "2 Dried Sagelore Fruit"
             ],
             "expire": false
         },
         {
-            "code": "LS342LYLC5FP",
+            "code": "7T34K5YLU5GT",
             "reward": [
                 "50 Stellar Jade",
                 "10,000 Credits"
+            ],
+            "expire": false
+        },
+        {
+            "code": "EBKLKMGLVMG7",
+            "reward": [
+                "120 Stellar Jade"
             ],
             "expire": false
         },
@@ -46,6 +54,14 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "LS342LYLC5FP",
+            "reward": [
+                "50 Stellar Jade",
+                "10,000 Credits"
+            ],
+            "expire": true
         },
         {
             "code": "HSRWHITEDAY2025",

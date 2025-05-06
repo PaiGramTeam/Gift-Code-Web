@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "GA3M24Z5C5KT",
+            "reward": [
+                "60 Stellar Jade"
+            ],
+            "expire": false
+        },
+        {
             "code": "ATELIERANAXA",
             "reward": [
                 "3 Traveler's Guide",

@@ -2,14 +2,6 @@
     "main": [],
     "over": [
         {
-            "code": "WAJ7CVBC4SG3",
-            "reward": [
-                "50 Stellar Jade",
-                "10,000 Credits"
-            ],
-            "expire": false
-        },
-        {
             "code": "HYACINEHEALS",
             "reward": [
                 "3 Traveler's Guide",
@@ -37,13 +29,6 @@
             "reward": [
                 "50 Stellar Jade",
                 "10,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "EBKLKMGLVMG7",
-            "reward": [
-                "120 Stellar Jade"
             ],
             "expire": false
         },
@@ -77,6 +62,21 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "WAJ7CVBC4SG3",
+            "reward": [
+                "50 Stellar Jade",
+                "10,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "EBKLKMGLVMG7",
+            "reward": [
+                "120 Stellar Jade"
+            ],
+            "expire": true
         },
         {
             "code": "LS342LYLC5FP",

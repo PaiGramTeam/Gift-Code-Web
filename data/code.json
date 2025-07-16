@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "STARRAILFATE",
+            "reward": [
+                "2 Sword in The Stone, 3 Traveler's Guide"
+            ],
+            "expire": false
+        },
+        {
             "code": "ABKN6KR9UB5B",
             "reward": [
                 "50 Stellar Jade, 10,000 Credits"

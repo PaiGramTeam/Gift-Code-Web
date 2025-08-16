@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "EVILDRAGON",
+            "reward": [
+                "350 Crystals"
+            ],
+            "expire": false
+        },
+        {
             "code": "YA266JQ8VA4X",
             "reward": [
                 "50 Stellar Jade, 10,000 Credits"

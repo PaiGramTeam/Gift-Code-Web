@@ -2,9 +2,9 @@
     "main": [],
     "over": [
         {
-            "code": "EVILDRAGON",
+            "code": "STARTTHEFEAST",
             "reward": [
-                "350 Crystals"
+                "2 Boneflute of Fish-Calling, 3 Traveler's Guide"
             ],
             "expire": false
         },
@@ -16,23 +16,9 @@
             "expire": false
         },
         {
-            "code": "STARRAILFATE",
-            "reward": [
-                "2 Sword in The Stone, 3 Traveler's Guide"
-            ],
-            "expire": false
-        },
-        {
             "code": "CREATIONNYMPH",
             "reward": [
                 "60 Stellar Jade, 1 Fuel and 1 Heroic Variable"
-            ],
-            "expire": false
-        },
-        {
-            "code": "PHAINONSENDOFF",
-            "reward": [
-                "3 Traveler's Guide and 2 'Dried' Bread"
             ],
             "expire": false
         },
@@ -57,6 +43,20 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "PHAINONSENDOFF",
+            "reward": [
+                "3 Traveler's Guide and 2 'Dried' Bread"
+            ],
+            "expire": true
+        },
+        {
+            "code": "STARRAILFATE",
+            "reward": [
+                "2 Sword in The Stone, 3 Traveler's Guide"
+            ],
+            "expire": true
         },
         {
             "code": "FTJ6CVTULSXP",

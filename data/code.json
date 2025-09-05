@@ -2,6 +2,20 @@
     "main": [],
     "over": [
         {
+            "code": "TB39Z7X49NZ7",
+            "reward": [
+                "50 Stellar Jade, 10,000 Credits"
+            ],
+            "expire": false
+        },
+        {
+            "code": "LIFTTHEKING",
+            "reward": [
+                "2 Monarch's Maneuver, 3 Traveler's Guide"
+            ],
+            "expire": false
+        },
+        {
             "code": "STARTTHEFEAST",
             "reward": [
                 "2 Boneflute of Fish-Calling, 3 Traveler's Guide"

@@ -2,7 +2,14 @@
     "main": [],
     "over": [
         {
-            "code": "TB39Z7X49NZ7",
+            "code": "MADFORMARCH",
+            "reward": [
+                "3 Traveler’s Guide, 2 At Least We Gather for Now"
+            ],
+            "expire": false
+        },
+        {
+            "code": "3S3RGX2PGL7P",
             "reward": [
                 "50 Stellar Jade, 10,000 Credits"
             ],
@@ -57,6 +64,13 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "TB39Z7X49NZ7",
+            "reward": [
+                "50 Stellar Jade, 10,000 Credits"
+            ],
+            "expire": true
         },
         {
             "code": "CT2N72RRUAJK",

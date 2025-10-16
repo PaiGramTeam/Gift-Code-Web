@@ -2,37 +2,16 @@
     "main": [],
     "over": [
         {
+            "code": "FREEDANHENG",
+            "reward": [
+                "3 Traveler’s Guide, 2 Earth Crystal Ore"
+            ],
+            "expire": false
+        },
+        {
             "code": "MADFORMARCH",
             "reward": [
                 "3 Traveler’s Guide, 2 At Least We Gather for Now"
-            ],
-            "expire": false
-        },
-        {
-            "code": "3S3RGX2PGL7P",
-            "reward": [
-                "50 Stellar Jade, 10,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "LIFTTHEKING",
-            "reward": [
-                "2 Monarch's Maneuver, 3 Traveler's Guide"
-            ],
-            "expire": false
-        },
-        {
-            "code": "STARTTHEFEAST",
-            "reward": [
-                "2 Boneflute of Fish-Calling, 3 Traveler's Guide"
-            ],
-            "expire": false
-        },
-        {
-            "code": "YA266JQ8VA4X",
-            "reward": [
-                "50 Stellar Jade, 10,000 Credits"
             ],
             "expire": false
         },
@@ -64,6 +43,34 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "3S3RGX2PGL7P",
+            "reward": [
+                "50 Stellar Jade, 10,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "YA266JQ8VA4X",
+            "reward": [
+                "50 Stellar Jade, 10,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "LIFTTHEKING",
+            "reward": [
+                "2 Monarch's Maneuver, 3 Traveler's Guide"
+            ],
+            "expire": true
+        },
+        {
+            "code": "STARTTHEFEAST",
+            "reward": [
+                "2 Boneflute of Fish-Calling, 3 Traveler's Guide"
+            ],
+            "expire": true
         },
         {
             "code": "TB39Z7X49NZ7",

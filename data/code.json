@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "9BJ8YE37HM8B",
+            "reward": [
+                "50 Stellar Jades, 10,000 Credits"
+            ],
+            "expire": false
+        },
+        {
             "code": "FREEDANHENG",
             "reward": [
                 "3 Traveler’s Guide, 2 Earth Crystal Ore"

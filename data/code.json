@@ -2,30 +2,23 @@
     "main": [],
     "over": [
         {
+            "code": "OMEGA",
+            "reward": [
+                "60 Stellar Jades, 1 Fuel"
+            ],
+            "expire": false
+        },
+        {
+            "code": "STORYOFLOVE",
+            "reward": [
+                "3 Traveler's Guide, 2 Oronyx Slate"
+            ],
+            "expire": false
+        },
+        {
             "code": "VAK9XB2BCGFX",
             "reward": [
                 "50 Stellar Jades, 10,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "9BJ8YE37HM8B",
-            "reward": [
-                "50 Stellar Jades, 10,000 Credits"
-            ],
-            "expire": false
-        },
-        {
-            "code": "FREEDANHENG",
-            "reward": [
-                "3 Traveler’s Guide, 2 Earth Crystal Ore"
-            ],
-            "expire": false
-        },
-        {
-            "code": "MADFORMARCH",
-            "reward": [
-                "3 Traveler’s Guide, 2 At Least We Gather for Now"
             ],
             "expire": false
         },
@@ -57,6 +50,27 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "9BJ8YE37HM8B",
+            "reward": [
+                "50 Stellar Jades, 10,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "FREEDANHENG",
+            "reward": [
+                "3 Traveler’s Guide, 2 Earth Crystal Ore"
+            ],
+            "expire": true
+        },
+        {
+            "code": "MADFORMARCH",
+            "reward": [
+                "3 Traveler’s Guide, 2 At Least We Gather for Now"
+            ],
+            "expire": true
         },
         {
             "code": "QSJQZ7WL9PZX",

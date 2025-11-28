@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "JS2QEA3SDHFK",
+            "reward": [
+                "50 Stellar Jades, 10,000 Credits"
+            ],
+            "expire": false
+        },
+        {
             "code": "OMEGA",
             "reward": [
                 "60 Stellar Jades, 1 Fuel"

@@ -2,9 +2,23 @@
     "main": [],
     "over": [
         {
-            "code": "JS2QEA3SDHFK",
+            "code": "4TJ9UZ7Z36N7",
             "reward": [
-                "50 Stellar Jades, 10,000 Credits"
+                "Rewards"
+            ],
+            "expire": false
+        },
+        {
+            "code": "THEDAHLIA",
+            "reward": [
+                "Rewards"
+            ],
+            "expire": false
+        },
+        {
+            "code": "STARRAILGIFT",
+            "reward": [
+                "Rewards"
             ],
             "expire": false
         },
@@ -12,13 +26,6 @@
             "code": "OMEGA",
             "reward": [
                 "60 Stellar Jades, 1 Fuel"
-            ],
-            "expire": false
-        },
-        {
-            "code": "STORYOFLOVE",
-            "reward": [
-                "3 Traveler's Guide, 2 Oronyx Slate"
             ],
             "expire": false
         },
@@ -57,6 +64,20 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "JS2QEA3SDHFK",
+            "reward": [
+                "50 Stellar Jades, 10,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "STORYOFLOVE",
+            "reward": [
+                "3 Traveler's Guide, 2 Oronyx Slate"
+            ],
+            "expire": true
         },
         {
             "code": "NBJ8HEJNZ5NF",

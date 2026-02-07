@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "CB2RUY7Y2P9B",
+            "reward": [
+                "50 Stellar Jade, 10,000 Credits"
+            ],
+            "expire": false
+        },
+        {
             "code": "4TJ9UZ7Z36N7",
             "reward": [
                 "Rewards"
@@ -64,6 +71,27 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "RSJ9EB2TDGC7",
+            "reward": [
+                "100 Stellar Jade and more freebies"
+            ],
+            "expire": true
+        },
+        {
+            "code": "MTKQEAJAUZWB",
+            "reward": [
+                "100 Stellar Jade and more freebies"
+            ],
+            "expire": true
+        },
+        {
+            "code": "PS3QWS3ACGDK",
+            "reward": [
+                "100 Stellar Jade and more freebies"
+            ],
+            "expire": true
         },
         {
             "code": "JS2QEA3SDHFK",

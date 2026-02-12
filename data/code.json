@@ -9,21 +9,7 @@
             "expire": false
         },
         {
-            "code": "4TJ9UZ7Z36N7",
-            "reward": [
-                "Rewards"
-            ],
-            "expire": false
-        },
-        {
             "code": "THEDAHLIA",
-            "reward": [
-                "Rewards"
-            ],
-            "expire": false
-        },
-        {
-            "code": "STARRAILGIFT",
             "reward": [
                 "Rewards"
             ],
@@ -33,13 +19,6 @@
             "code": "OMEGA",
             "reward": [
                 "60 Stellar Jades, 1 Fuel"
-            ],
-            "expire": false
-        },
-        {
-            "code": "VAK9XB2BCGFX",
-            "reward": [
-                "50 Stellar Jades, 10,000 Credits"
             ],
             "expire": false
         },
@@ -71,6 +50,20 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "VAK9XB2BCGFX",
+            "reward": [
+                "50 Stellar Jades, 10,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "4TJ9UZ7Z36N7",
+            "reward": [
+                "Rewards"
+            ],
+            "expire": true
         },
         {
             "code": "RSJ9EB2TDGC7",

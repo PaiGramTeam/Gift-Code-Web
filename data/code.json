@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "ALETTERFORYOU",
+            "reward": [
+                "6 Adventure Log, 2 Dreamlight - Mixed Sweets"
+            ],
+            "expire": false
+        },
+        {
             "code": "KBJ8VZ6Y27QX",
             "reward": [
                 "60 Stellar Jade, 2 Traveler's Guide, 3 Refined Aether, 5,000 Credits"

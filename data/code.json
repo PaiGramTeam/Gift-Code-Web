@@ -2,6 +2,20 @@
     "main": [],
     "over": [
         {
+            "code": "EB28LCJRU4W3",
+            "reward": [
+                "x50 Stellar Jade, x10,000 Credits"
+            ],
+            "expire": false
+        },
+        {
+            "code": "SILVERWOLFLV999",
+            "reward": [
+                "x3 Traveler's Guide, x2 Badge Battle Robe"
+            ],
+            "expire": false
+        },
+        {
             "code": "AceDetective",
             "reward": [
                 "x3 Traveler's Guide, x2 Cold Joke"

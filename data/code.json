@@ -2,30 +2,30 @@
     "main": [],
     "over": [
         {
-            "code": "EB28LCJRU4W3",
+            "code": "VS3Q5VK9CMFP",
             "reward": [
-                "x50 Stellar Jade, x10,000 Credits"
+                "50 Stellar Jade, 10,000 Credits"
+            ],
+            "expire": false
+        },
+        {
+            "code": "QS395DJQU4HK",
+            "reward": [
+                "60 Stellar Jade"
+            ],
+            "expire": false
+        },
+        {
+            "code": "SitByEvanescia",
+            "reward": [
+                "3 Traveler's Guide, 2 Bottled Quantum Ghost"
             ],
             "expire": false
         },
         {
             "code": "SILVERWOLFLV999",
             "reward": [
-                "x3 Traveler's Guide, x2 Badge Battle Robe"
-            ],
-            "expire": false
-        },
-        {
-            "code": "AceDetective",
-            "reward": [
-                "x3 Traveler's Guide, x2 Cold Joke"
-            ],
-            "expire": false
-        },
-        {
-            "code": "4T28RJM4MS3B",
-            "reward": [
-                "50 Stellar Jades, 10,000 Credits"
+                "3 Traveler's Guide, 2 Badge Battle Robe"
             ],
             "expire": false
         },
@@ -134,6 +134,27 @@
                 "50 Stellar Jade and more freebies"
             ],
             "expire": false
+        },
+        {
+            "code": "EB28LCJRU4W3",
+            "reward": [
+                "x50 Stellar Jade, x10,000 Credits"
+            ],
+            "expire": true
+        },
+        {
+            "code": "AceDetective",
+            "reward": [
+                "x3 Traveler's Guide, x2 Cold Joke"
+            ],
+            "expire": true
+        },
+        {
+            "code": "4T28RJM4MS3B",
+            "reward": [
+                "50 Stellar Jades, 10,000 Credits"
+            ],
+            "expire": true
         },
         {
             "code": "CSJ882LL4BHF",

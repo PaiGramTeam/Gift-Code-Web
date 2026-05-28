@@ -136,6 +136,27 @@
             "expire": false
         },
         {
+            "code": "HERESTHECODE",
+            "reward": [
+                "100 Stellar Jade and more freebies"
+            ],
+            "expire": true
+        },
+        {
+            "code": "SHAREANDSAVEIT",
+            "reward": [
+                "100 Stellar Jade and more freebies"
+            ],
+            "expire": true
+        },
+        {
+            "code": "HAPPY3RDANNIV",
+            "reward": [
+                "100 Stellar Jade and more freebies"
+            ],
+            "expire": true
+        },
+        {
             "code": "EB28LCJRU4W3",
             "reward": [
                 "x50 Stellar Jade, x10,000 Credits"

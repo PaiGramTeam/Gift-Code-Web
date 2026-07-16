@@ -2,6 +2,20 @@
     "main": [],
     "over": [
         {
+            "code": "PSJQKBQPYGMT",
+            "reward": [
+                "50 Stellar Jade and 10,000 Credits"
+            ],
+            "expire": false
+        },
+        {
+            "code": "BESTCOFFEEEVER",
+            "reward": [
+                "3 Traveler's Guide, 2 Express Special Blend: Rustic Infusion"
+            ],
+            "expire": false
+        },
+        {
             "code": "BladeFitCheck",
             "reward": [
                 "3 Traveler's Guide, 2 Cold Joke"

@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "STARRAILFATE2026",
+            "reward": [
+                "3 Traveler's Guide, 2 Fluffy Multi-functional Fan Glowsticks"
+            ],
+            "expire": false
+        },
+        {
             "code": "PSJQKBQPYGMT",
             "reward": [
                 "50 Stellar Jade and 10,000 Credits"

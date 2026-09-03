@@ -2,6 +2,13 @@
     "main": [],
     "over": [
         {
+            "code": "8SMSVJWJM7ZT",
+            "reward": [
+                "50 Stellar Jade and 10,000 Credits"
+            ],
+            "expire": false
+        },
+        {
             "code": "SunsweptRobin",
             "reward": [
                 "3 Wanderer's Guide, 2 Classic SoulGlad"
